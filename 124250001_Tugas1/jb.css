@@ -1,0 +1,94 @@
+body {
+    background: linear-gradient(135deg, #0f0f0f, #1a1a2e);
+    color: white;
+}
+
+.custom-navbar {
+    background: linear-gradient(90deg, #000000, #1a1a2e) !important;
+}
+
+.navbar-brand {
+    color: #ff003c !important;
+}
+.logo-kecil {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.font-gaming {
+    font-family: 'Orbitron', sans-serif;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.nav-link {
+    transition: 0.3s;
+}
+
+.nav-link:hover {
+    color: #ff003c !important;
+}
+
+.nav-link.active {
+    color: #ff003c !important;
+    border-bottom: 2px solid #ff003c;
+}
+
+.card {
+    background: #1c1c2b;
+    border: 1px solid #0e2fd6;
+}
+
+footer {
+    background: #0d0d17;
+    padding: 15px;
+    text-align: center;
+    height: 60px;
+}
+
+.brand-font {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 26px;
+    font-weight: bold;
+    color: #ff003c;
+}
+
+.nav-item.dropdown {
+    position: relative;
+}
+
+.nav-item.dropdown .dropdown-menu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+
+    background-color: #1c1c2b;
+    min-width: 200px;
+    z-index: 1000;
+}
+
+.nav-item.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+.dropdown-menu .dropdown-item {
+    color: rgb(250, 250, 250);
+}
+
+.dropdown-menu .dropdown-item:hover {
+    background-color: #dcdce3;
+    color: #ff003c;
+}
+.profile-card {
+    background: #1c1c2b;
+    border: 1px solid #0e2fd6;
+    color: white;
+    border-radius: 15px;
+}
+
+.profile-card hr {
+    border-color: #e0dcdd;
+}
